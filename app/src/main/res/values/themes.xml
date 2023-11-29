@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AuthForAEON" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/deep_orange</item>
+
+        <item name="android:textColor">@color/dark_while</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+    <style name="Theme.AuthForAEON" parent="Base.Theme.AuthForAEON" />
+
+    <style name="ShapeAppearanceOverlayRounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>

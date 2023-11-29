@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loadingFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.authforaeon.presentation.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_paymentListFragment"
+            app:destination="@id/paymentListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentListFragment"
+        android:name="com.example.authforaeon.presentation.payment.PaymentListFragment"
+        android:label="fragment_payment_list"
+        tools:layout="@layout/fragment_payment_list" />
+    <fragment
+        android:id="@+id/loadingFragment"
+        android:name="com.example.authforaeon.presentation.LoadingFragment"
+        android:label="LoadingFragment" >
+        <action
+            android:id="@+id/action_loadingFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_loadingFragment_to_paymentListFragment"
+            app:destination="@id/paymentListFragment" />
+    </fragment>
+</navigation>

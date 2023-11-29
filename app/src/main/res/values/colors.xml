@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="deep_purple">#FF2C2638</color>
+    <color name="deep_purple_light">#FF383146</color>
+    <color name="dark_while">#FFCFCFCF</color>
+    <color name="deep_orange">#FF9B6F6F</color>
+</resources>
