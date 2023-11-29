@@ -1,4 +1,4 @@
-package com.example.authforaeon.domain.repository
+package com.example.authforaeon.domain.interfaces
 
 import kotlinx.coroutines.flow.Flow
 

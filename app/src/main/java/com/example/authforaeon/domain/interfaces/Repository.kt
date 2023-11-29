@@ -1,4 +1,4 @@
-package com.example.authforaeon.domain.repository
+package com.example.authforaeon.domain.interfaces
 
 import com.example.authforaeon.domain.model.LoginBody
 import com.example.authforaeon.domain.model.LoginResult

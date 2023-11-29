@@ -1,4 +1,4 @@
-package com.example.authforaeon.presentation
+package com.example.authforaeon.presentation.loading
 
 import android.os.Bundle
 import android.view.LayoutInflater

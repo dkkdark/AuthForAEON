@@ -1,6 +1,5 @@
 package com.example.authforaeon.data.repository
 
-import android.util.Log
 import com.example.authforaeon.data.mapper.toLoginRequest
 import com.example.authforaeon.data.mapper.toPaymentResult
 import com.example.authforaeon.data.model.LoginModel
@@ -10,15 +9,10 @@ import com.example.authforaeon.domain.model.LoginResult
 import com.example.authforaeon.domain.model.PaymentModel
 import com.example.authforaeon.domain.model.PaymentResult
 import com.example.authforaeon.domain.model.ResultModel
-import com.example.authforaeon.domain.repository.Repository
-import com.example.authforaeon.domain.repository.TokenDataStore
-import com.example.authforaeon.utils.AmountDeserializer
-import com.google.gson.GsonBuilder
-import com.google.gson.reflect.TypeToken
+import com.example.authforaeon.domain.interfaces.Repository
+import com.example.authforaeon.domain.interfaces.TokenDataStore
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.flow
-import org.json.JSONObject
 import retrofit2.Response
 import javax.inject.Inject
 

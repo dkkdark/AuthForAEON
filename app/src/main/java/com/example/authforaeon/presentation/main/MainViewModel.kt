@@ -1,15 +1,11 @@
-package com.example.authforaeon.presentation
+package com.example.authforaeon.presentation.main
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.authforaeon.domain.usecase.IsLoginUseCase
-import com.example.authforaeon.domain.usecase.LoginUseCase
-import com.example.authforaeon.presentation.login.LoginEvent
-import com.example.authforaeon.presentation.login.LoginStates
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

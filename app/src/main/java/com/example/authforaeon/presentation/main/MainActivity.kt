@@ -1,4 +1,4 @@
-package com.example.authforaeon.presentation
+package com.example.authforaeon.presentation.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,9 +10,7 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.example.authforaeon.R
 import com.example.authforaeon.databinding.ActivityMainBinding
-import com.example.authforaeon.presentation.login.LoginFragment
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
 @AndroidEntryPoint

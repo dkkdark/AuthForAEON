@@ -1,7 +1,7 @@
 package com.example.authforaeon.di
 
 import com.example.authforaeon.data.repository.RepositoryImpl
-import com.example.authforaeon.domain.repository.Repository
+import com.example.authforaeon.domain.interfaces.Repository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

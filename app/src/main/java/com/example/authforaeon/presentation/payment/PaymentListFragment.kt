@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.viewModels
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
@@ -13,10 +12,7 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.authforaeon.R
-import com.example.authforaeon.databinding.FragmentLoginBinding
 import com.example.authforaeon.databinding.FragmentPaymentListBinding
-import com.example.authforaeon.presentation.MainViewModel
-import com.example.authforaeon.presentation.login.LoginStates
 import com.example.authforaeon.presentation.payment.recyclerview.PaymentListAdapter
 import com.example.authforaeon.utils.showSnackbar
 import dagger.hilt.android.AndroidEntryPoint

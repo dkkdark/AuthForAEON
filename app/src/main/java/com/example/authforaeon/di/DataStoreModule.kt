@@ -1,7 +1,7 @@
 package com.example.authforaeon.di
 
 import com.example.authforaeon.data.sources.TokenDataStoreImpl
-import com.example.authforaeon.domain.repository.TokenDataStore
+import com.example.authforaeon.domain.interfaces.TokenDataStore
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

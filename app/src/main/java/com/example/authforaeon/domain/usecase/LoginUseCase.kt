@@ -1,7 +1,7 @@
 package com.example.authforaeon.domain.usecase
 
 import com.example.authforaeon.domain.model.LoginBody
-import com.example.authforaeon.domain.repository.Repository
+import com.example.authforaeon.domain.interfaces.Repository
 import javax.inject.Inject
 
 class LoginUseCase @Inject constructor(

@@ -1,7 +1,6 @@
 package com.example.authforaeon.domain.usecase
 
-import android.util.Log
-import com.example.authforaeon.domain.repository.Repository
+import com.example.authforaeon.domain.interfaces.Repository
 import javax.inject.Inject
 
 class GetPaymentUseCase @Inject constructor(
